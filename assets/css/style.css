@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+    background-color: rgba(47, 79, 79, 0.788);
+}
+.container{
+    min-width: 750px;
+    height: 500px;
+    border: 1px solid rgba(216, 193, 193, 0.288);
+    display: flex;
+}
+/*Section Lado Esquerdo*/
+.titulo{
+    margin-bottom: 5px;
+    font-size: 35px;
+    color: rgb(123, 204, 177); 
+}
+
+img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.lado-esquerdo{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+   
+}
+.redes-sociais{
+    margin: 15px; 
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.gmail{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+}
+.linkedin{
+    width: 70px;
+    height: 45px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30% auto;
+}
+.paragrafo-span{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgba(123, 204, 177, 0.644);
+}
+
+.buttons button{
+margin-left: 0.3rem;
+width: 75px;
+height: 35px;
+border-radius: 5px;
+margin-top: 10px ;
+font-size: 15px;
+color: rgb(123, 204, 177);
+background-color: transparent;
+font-weight: 700;
+border: 0.2px solid rgba(0, 0, 0, 0.041);
+cursor: pointer;
+box-shadow: 5px 5px 45px rgb(35, 163, 120);
+transform: scale(0.1s);
+}
+
+.buttons button:hover{
+    background-color: rgba(113, 212, 113, 0.438);
+    transition: 0.9s;
+}
+.class-inputs{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.class-inputs input{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.4rem;
+    margin: 0.3rem;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    color: rgb(123, 204, 177);
+}
+::placeholder{
+    color: rgb(123, 204, 177);
+    font-weight: 400;
+}
+
+.foto-lado-direito{
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-image-set('/assets/images/login2.jpg');
+}
+
